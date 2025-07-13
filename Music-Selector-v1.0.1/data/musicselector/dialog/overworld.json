@@ -1,0 +1,158 @@
+{
+    "type": "multi_action",
+    "title": "- Select Overworld Biome -",
+    "pause": false,
+    "actions": [
+        {
+            "label": "Default",
+            "tooltip": "Music that plays in biomes without specific music",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_game"
+            }
+        },
+        {
+            "label": "Badlands",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_badlands"
+            }
+        },
+        {
+            "label": "Bamboo Jungle",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_bamboo"
+            }
+        },
+        {
+            "label": "Cherry Grove",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_cherry"
+            }
+        },
+        {
+            "label": "Deep Dark",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_deep"
+            }
+        },
+        {
+            "label": "Desert",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_desert"
+            }
+        },
+        {
+            "label": "Dripstone Caves",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_dripstone"
+            }
+        },
+        {
+            "label": "Flower Forest",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_flower"
+            }
+        },
+        {
+            "label": "Forest",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_forest"
+            }
+        },
+        {
+            "label": "Frozen Peaks",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_frozen"
+            }
+        },
+        {
+            "label": "Grove",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_grove"
+            }
+        },
+        {
+            "label": "Jagged Peaks",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_jagged"
+            }
+        },
+        {
+            "label": "Jungle",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_jungle"
+            }
+        },
+        {
+            "label": "Lush Caves",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_lush"
+            }
+        },
+        {
+            "label": "Meadow",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_meadow"
+            }
+        },
+        {
+            "label": "Old Growth Taiga",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_oldgrowth"
+            }
+        },
+        {
+            "label": "Snowy Slopes",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_snowy"
+            }
+        },
+        {
+            "label": "Sparse Jungle",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_sparse"
+            }
+        },
+        {
+            "label": "Stony Peaks",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_stony"
+            }
+        },
+        {
+            "label": "Swamp",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_swamp"
+            }
+        }
+    ],
+    "exit_action": {
+        "label": "Back",
+        "tooltip": "Back to the music selection screen",
+        "width": 100,
+        "action": {
+            "type": "show_dialog",
+            "dialog": "musicselector:home"
+        }
+    },
+    "after_action": "none"
+}

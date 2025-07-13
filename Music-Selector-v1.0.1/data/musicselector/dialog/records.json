@@ -1,0 +1,164 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "- Select Music Disc -",
+    "actions": [
+        {
+            "label": "C418 - 13",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_13"
+            }
+        },
+        {
+            "label": "C418 - Cat",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_cat"
+            }
+        },
+        {
+            "label": "C418 - Blocks",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_blocks"
+            }
+        },
+        {
+            "label": "C418 - Chirp",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_chirp"
+            }
+        },
+        {
+            "label": "C418 - Far",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_far"
+            }
+        },
+        {
+            "label": "C418 - Mall",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_mall"
+            }
+        },
+        {
+            "label": "C418 - Mellohi",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_mellohi"
+            }
+        },
+        {
+            "label": "C418 - Stal",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_stal"
+            }
+        },
+        {
+            "label": "C418 - Strad",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_strad"
+            }
+        },
+        {
+            "label": "C418 - Ward",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_ward"
+            }
+        },
+        {
+            "label": "C418 - 11",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_11"
+            }
+        },
+        {
+            "label": "Lena Raine - Creator (Music Box)",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_creatormb"
+            }
+        },
+        {
+            "label": "C418 - Wait",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_wait"
+            }
+        },
+        {
+            "label": "Lena Raine - Creator",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_creator"
+            }
+        },
+        {
+            "label": "Aaron Cherof - Precipice",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_precipice"
+            }
+        },
+        {
+            "label": "Lena Raine - Otherside",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_otherside"
+            }
+        },
+        {
+            "label": "Aaron Cherof - Relic",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_relic"
+            }
+        },
+        {
+            "label": "Samuel Aberg - 5",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_5"
+            }
+        },
+        {
+            "label": "Lena Raine - Pigstep",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_pigstep"
+            }
+        },
+        {
+            "label": "Amos Roddy - Tears",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_tears"
+            }
+        }
+    ],
+    "external_title": "Music Discs",
+    "after_action": "none",
+    "columns": 2,
+    "pause": false,
+    "exit_action": {
+        "label": "Back",
+        "tooltip": "Back to the music selection screen",
+        "width": 100,
+        "action": {
+            "type": "show_dialog",
+            "dialog": "musicselector:home"
+        }
+    },
+    "body": {
+        "type": "minecraft:plain_message",
+        "contents": "   Note: Music Discs are all mono mixes    \nThat means that they will play from the location where you started the track rather than just directly in you head"
+    }
+
+}

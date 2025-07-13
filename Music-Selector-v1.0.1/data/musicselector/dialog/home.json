@@ -1,0 +1,89 @@
+{
+    "type": "multi_action",
+    "title": "- Select Music -",
+    "actions": [
+        {
+            "label": "Overworld",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "musicselector:overworld"
+            }
+        },
+        {
+            "label": "Nether",
+            "action": {
+                "type": "show_dialog",
+                "dialog":"musicselector:nether"
+            }
+        },
+        {
+            "label": "Main Menu",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_menu"
+            }
+        },
+        {
+            "label": "Creative Mode",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_creative"
+            }
+        },
+        {
+            "label": "Underwater",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_water"
+            }
+        },
+        {
+            "label": "Dragon Fight",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_boss"
+            }
+        },
+        {
+            "label": "The End",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_end"
+            }
+        },
+        {
+            "label": "Credits",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_credits"
+            }
+        },
+        {
+            "label": "Music Discs",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "musicselector:records"
+            }
+        },
+        {
+            "label": "Stop Music",
+            "tooltip": "Stops all music tracks",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_stop"
+            }
+        },
+        {
+            "label": "Random",
+            "tooltip": "Selects a random track",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_random"
+            }
+        }
+    ],
+    "columns": 3,
+    "pause": false,
+    "external_title": "Music Selector",
+    "after_action": "none"
+}

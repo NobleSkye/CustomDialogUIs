@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "- Select Nether Biome -",
+    "pause": false,
+    "body": {
+        "type": "minecraft:plain_message",
+        "contents": "Warped Forest doesn't have any music"
+    },
+    "exit_action": {
+        "label": "Back",
+        "tooltip": "Back to the music selection screen",
+        "width": 100,
+        "action": {
+            "type": "show_dialog",
+            "dialog": "musicselector:home"
+        }
+    },
+    "actions": [
+        {
+            "label": "Nether Wastes",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_wastes"
+            }
+        },
+        {
+            "label": "Crimson Forest",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_crimson"
+            }
+        },
+        {
+            "label": "Soul Sand Valley",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_soul"
+            }
+        },
+        {
+            "label": "Basalt Delta",
+            "action": {
+                "type": "run_command",
+                "command": "trigger music_basalt"
+            }
+        }
+    ],
+    "after_action": "none"
+}
